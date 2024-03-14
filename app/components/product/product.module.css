@@ -1,0 +1,69 @@
+.card {
+  border-radius: var(--border-radius);
+  transition: background 200ms, border 200ms;
+  border: 1px solid #ddd;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+
+.card span {
+  display: inline-block;
+  transition: transform 200ms;
+}
+
+.card h2 {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.card p {
+  margin: 0;
+  opacity: 0.6;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 30ch;
+  text-wrap: balance;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.cardDescription {
+  padding: 1em;
+}
+
+.priceText {
+  padding: 20px 0;
+  font-weight: bold;
+  font-size: 16px;
+  color: green;
+}
+
+.btnDetail {
+  margin: 5px;
+  padding: 5px;
+  display: block;
+  text-align: center;
+  font-size: 14px; /* Adjusted for better size */
+  font-weight: bold;
+  border: 1px solid #ddd;
+  cursor: pointer; /* Add cursor for hover effect */
+  border-radius: 25em;
+}
+
+.btnContainer {
+  margin: 5px;
+  text-align: center; /* Center button horizontally */
+}
+
+.cardInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stockText {
+  align-self: center ;
+}
